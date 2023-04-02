@@ -10,8 +10,8 @@ const TeamCard = () => {
           <img src="/people-01.png" />
         </div>
         <div class="caption">
-          <h3>Vin Diesel</h3>
-          <p>Senior App Developer</p>
+          <h3>Abhijeet Varma</h3>
+          <p>Technical Department</p>
           <div class="social-links">
             <a href="#">
               <i class="fab fa-facebook"></i>

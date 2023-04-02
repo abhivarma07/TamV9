@@ -75,7 +75,6 @@ const Model = () => {
       animate="animate"
       exit="exit"
     >
-      {/* <TeamCard /> */}
       <ParticleBackground />
       <div className="container fluid">
         <div className="row center top-row">

@@ -98,11 +98,15 @@ export const Workshop_Events = [
     url: "",
   },
   {
-    title: "Ethical Hacking",
+    title: "Digital Marketing Workshop",
     url: "",
   },
   {
     title: "Adrino Workshop",
+    url: "",
+  },
+  {
+    title: "HTML/CSS Workshop",
     url: "",
   },
 ];
@@ -174,5 +178,73 @@ export const exploreWorlds = [
     imgUrl: "/planet-05.png",
     title: "Youth Parliament",
     data: Youth_Events,
+  },
+];
+
+export const timeline_cards = [
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/opening_SuoUH9f-ZN.png?updatedAt=1680445987586",
+    date: "3rd April 2023",
+    heading: "Opening Ceremony",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/quiz_gRpzODSwd.png?updatedAt=1680445990224",
+    date: "4th April 2023",
+    heading: "General Quiz",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/sports_U_w0TgNY_.png?updatedAt=1680445981152",
+    date: "10th April 2023",
+    heading: "Sports Quiz",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/talkhow_WHY9-wqGC.png?updatedAt=1680445987450",
+    date: "17th April 2023",
+    heading: "Technical Talkshow",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/marketing_qYxO1Fc146.png?updatedAt=1680445989655",
+    date: "18th April 2023",
+    heading: "Digital Marketing",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/talkshow2_RHQYNd77J.png?updatedAt=1680445990654",
+    date: "24th April 2023",
+    heading: "Non-Technical Talkshow",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/entertainment_OQFx_Khx_q.png?updatedAt=1680445988412",
+    date: "25th April 2023",
+    heading: "Entertainment Quiz",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/parliament_YqsHNm3wG.png?updatedAt=1680445987035",
+    date: "26th April 2023",
+    heading: "Youth Parliament",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/html_-AHaInq9JG.png?updatedAt=1680445978789",
+    date: "27th April 2023",
+    heading: "HTML/CSS Workshop",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/technical_MzubQvaOP.png?updatedAt=1680445978264",
+    date: "2nd May 2023",
+    heading: "Technical Quiz",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/arduino_-ZW2iZt2E.png?updatedAt=1680445983699",
+    date: "5th May 2023",
+    heading: "Arduino workshop",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/react_zM8AwM_qh.png?updatedAt=1680445984754",
+    date: "25th May 2023",
+    heading: "ReactJs workshop",
+  },
+  {
+    img: "https://ik.imagekit.io/o3b14qow3gqi/TAMv9/closing_ejC5BCy2X.png?updatedAt=1680446778917&tr=w-1080%2Ch-1350%2Cfo-auto",
+    date: "29th May 2023",
+    heading: "Closing Ceremony",
   },
 ];

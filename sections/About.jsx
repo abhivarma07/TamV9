@@ -35,7 +35,7 @@ const About = () => (
       >
         Creating a better knowledge-base and testing their wits on various
         levels, TAM stands to be a knowledge-parting legacy from years! We are
-        more than proud to introduce version 8 of TAM for the year 2021-22. Come
+        more than proud to introduce version 9 of TAM for the year 2022-23. Come
         and join us to be a part of the biggest intelligence-rave of St.
         Martin’s Engineering College.
       </motion.p>

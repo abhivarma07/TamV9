@@ -1,11 +1,11 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 import styles from "../styles";
 import { TitleText, TypingText } from "../components";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import { SLIDER_BGS, SLIDER_SRCS } from "../constants";
+import { SLIDER_BGS, SLIDER_SRCS, timeline_cards } from "../constants";
 import { useEffect, useRef, useState } from "react";
 import { useCallback } from "react";
 
@@ -20,7 +20,6 @@ const World = () => {
   const [leftContraint, setLeftConstraint] = useState(0);
 
   useEffect(() => {
-    console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
 
@@ -63,42 +62,44 @@ const World = () => {
           textStyles="text-center"
         />
 
-        <motion.div
-          ref={carousel}
-          variants={fadeIn("up", "tween", 0.3, 1)}
-          className="relative mt-[68px] flex w-full h-[550px] carousel"
-          whileTap={{ cursor: "grabbing" }}
-          key={containerKey}
-          id={id}
-        >
+        <AnimatePresence>
           <motion.div
-            className="inner-carousel"
-            drag="x"
-            dragConstraints={{ right: 0, left: -width }}
+            ref={carousel}
+            variants={fadeIn("up", "tween", 0.3, 1)}
+            className="relative mt-[68px] flex w-full h-[550px] carousel"
+            whileTap={{ cursor: "grabbing" }}
+            key={containerKey}
+            id={id}
           >
-            {SLIDER_SRCS.map((src) => {
-              return (
-                <motion.div className="item" key={src}>
-                  <div
-                    className="absolute bottom-10 p-8 flex justify-start flex-col rounded-b-[24px] "
-                    style={{
-                      // backgroundColor: "rgba(0,0,0,0.5)",
-                      zIndex: 99,
-                    }}
-                  >
-                    <p className="font-normal text-[12px] leading-[20.16px] text-white">
-                      26th March 2023
-                    </p>
-                    <h2 className="mt-[10px] font-semibold sm:text-[22px] text-[20px] text-white">
-                      {"Name of Ceromony"}
-                    </h2>
-                  </div>
-                  <img src={src} />
-                </motion.div>
-              );
-            })}
+            <motion.div
+              className="inner-carousel"
+              drag="x"
+              dragConstraints={{ right: 0, left: -width }}
+            >
+              {timeline_cards.map((src, index) => {
+                return (
+                  <motion.div className="item" key={index}>
+                    <div
+                      className="absolute bottom-10 p-8 flex justify-start flex-col rounded-b-[24px] "
+                      style={{
+                        // backgroundColor: "rgba(0,0,0,0.5)",
+                        zIndex: 99,
+                      }}
+                    >
+                      <p className="font-normal text-[12px] leading-[20.16px] text-white">
+                        {src.date}
+                      </p>
+                      <h2 className="mt-[10px] font-semibold sm:text-[22px] text-[20px] text-white">
+                        {src.heading}
+                      </h2>
+                    </div>
+                    <img src={src.img} style={{ objectFit: "fill" }} />
+                  </motion.div>
+                );
+              })}
+            </motion.div>
           </motion.div>
-        </motion.div>
+        </AnimatePresence>
       </motion.div>
     </section>
   );

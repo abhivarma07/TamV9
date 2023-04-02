@@ -32,7 +32,9 @@ const Home = () => (
       <div className="gradient-04 z-0" />
       <WhatsNew />
     </div>
-    <World />
+    <div className="worlds">
+      <World />
+    </div>
     <div className="relative">
       <Insights />
       <div className="gradient-04 z-0" />
