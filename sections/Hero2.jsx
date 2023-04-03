@@ -143,6 +143,7 @@ const Model = () => {
                     alt="an image"
                     style={{
                       scale: scale,
+                      objectFit: "cover",
                     }}
                     initial={{ scale: 1.0 }}
                     animate={{

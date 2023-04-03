@@ -2,27 +2,16 @@
 
 import React from "react";
 
-const TeamCard = () => {
+const TeamCard = ({ data }) => {
   return (
     <>
       <div class="profile-card">
         <div class="img">
-          <img src="/people-01.png" />
+          <img src={data.img} />
         </div>
         <div class="caption">
-          <h3>Abhijeet Varma</h3>
-          <p>Technical Department</p>
-          <div class="social-links">
-            <a href="#">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </div>
+          <h3 style={{ color: "black" }}>{data.name}</h3>
+          <p>{data.role}</p>
         </div>
       </div>
     </>
