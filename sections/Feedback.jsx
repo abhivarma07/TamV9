@@ -34,6 +34,13 @@ const Feedback = () => (
           of success, in addition to ensuring every participant is able to be
           served with equal priority.”
         </p>
+        <a
+          href="/team"
+          className="font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white"
+          style={{ fontWeight: "bold" }}
+        >
+          {"Know us better"}
+        </a>
       </motion.div>
 
       <motion.div
