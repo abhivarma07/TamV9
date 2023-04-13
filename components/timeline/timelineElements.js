@@ -28,7 +28,7 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "13th April 2023 : 11:00 am",
     icon: "work",
-    link: "https://vq11ir53vlc.typeform.com/to/uFF6YRvh",
+    link: "https://forms.gle/x6wEs1NTQRGBSUE29",
   },
   {
     id: 14,
@@ -39,7 +39,7 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "17th April 2023",
     icon: "school",
-    link: "https://bakehegc.paperform.co",
+    link: "https://forms.gle/U22DKb8jxoXR1W7Y6",
   },
   {
     id: 12,
@@ -50,7 +50,7 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "19th-20th April 2023",
     icon: "school",
-    link: "https://noncn51y.paperform.co",
+    link: "https://forms.gle/QUULsmiDaNLrTtx78",
   },
   {
     id: 9,
@@ -61,7 +61,7 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "24th April 2023",
     icon: "work",
-    link: "https://qsej7rzj.paperform.co",
+    link: "https://forms.gle/7ZVz1jygqPuRyvvcA",
   },
   {
     id: 4,
@@ -72,7 +72,7 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "25th April 2023",
     icon: "school",
-    link: "https://vq11ir53vlc.typeform.com/to/OPTGj7mh",
+    link: "https://forms.gle/sGixP7Y51zxrBrAQ6",
   },
   {
     id: 8,
@@ -83,7 +83,7 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "25th April 2023",
     icon: "school",
-    link: "https://vq11ir53vlc.typeform.com/to/ZdgaIC0u",
+    link: "https://forms.gle/HqxHMQ238f3ZVZiE7",
   },
   {
     id: 19,
@@ -94,7 +94,7 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "28th-29th April 2023",
     icon: "school",
-    link: "https://vq11ir53vlc.typeform.com/to/OPTGj7mh",
+    link: "https://forms.gle/suZCfzKAB593aT1C8",
   },
   {
     id: 15,
@@ -105,18 +105,18 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "2nd May 2023",
     icon: "work",
-    link: "https://iym6g0rl.paperform.co",
+    link: "https://forms.gle/AywvmLe8xNmQYp9D9",
   },
   {
     id: 4,
-    title: "Entertainment Quiz",
+    title: "Entertainment Quiz 2nd 3rd 4th Year",
     location: "Seminar Hall, St.Martin's Engineering College",
     description:
       "Are you a Bollywood person? Or a Hollywood person? Or a total Tollywood-kutti? Doesn't matter, Entertainment is entertainment! Getting you the best of every industry, to put your movie-mind on a kindle!",
     buttonText: "Register Here",
     date: "4th May 2023",
     icon: "school",
-    link: "https://vq11ir53vlc.typeform.com/to/OPTGj7mh",
+    link: "https://forms.gle/bHL6aiq3jyzHHPFr7",
   },
   {
     id: 19,
@@ -138,7 +138,7 @@ const timelineElements = [
     buttonText: "Register Here",
     date: "25th-26th May 2023",
     icon: "work",
-    link: "https://vq11ir53vlc.typeform.com/to/v7MiC96M",
+    link: "https://forms.gle/CERoUDz1HvRfWxbJ9",
   },
   // {
   //   id: 4,
